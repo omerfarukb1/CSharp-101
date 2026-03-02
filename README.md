@@ -10,6 +10,7 @@ Dil: C# (.NET Framework)
 IDE: Visual Studio 2022
 
 📝 **Öğrenilen Konular**
+
 [x] Proje Kurulumu ve Merhaba Dünya
 
 [x] Değişkenler ve Veri Tipleri
