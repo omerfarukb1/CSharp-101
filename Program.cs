@@ -612,7 +612,6 @@ namespace CSharp_101
 
             //7)Do While Döngüsü
             //int sayi = 1;
-            //do
             //{
             //    sayi++;
             //    Console.WriteLine(sayi);
@@ -630,3 +629,4 @@ namespace CSharp_101
         }
     }
 }
+
