@@ -270,7 +270,200 @@ namespace CSharp_101
             //dönüşüm için anahtar kelime convert
             //decimal>double>float
 
+            //Karar Yapıları
+            //1)İf ve Else Yapısı("Süslü Parentez kullanalır")
+            //string sehir;
+            //Console.Write("Şehir Adı: ");
+            //sehir = Console.ReadLine();
+            //if (sehir == "Adana")
+            //{
+            //    Console.Write("Doğru Şehir");
+            //}
+            //else
+            //{
+            //    Console.Write("Yanlış Şehir");
+            //}
 
+            //2)Öğrenci Sınav Notu Uygulaması
+            //int Sayi;
+            //Console.Write("Sayıyı Giriniz: ");
+            //Sayi =Convert.ToInt16 (Console.ReadLine());
+
+            //if (Sayi == 23)
+            //{
+            //    Console.Write("Sayı Doğru Girildi");
+            //}
+            //else
+            //{
+            //    Console.Write("Sayı Yanlış Girildi");
+            //}
+
+            //Console.WriteLine("Elektrik Devreleri");
+            //int s1, s2, ort;
+            //Console.Write("1.Sınavı Giriniz : ");
+            //s1 = Convert.ToInt16(Console.ReadLine());
+            //Console.WriteLine("1.Sınav Notunuz : " + s1);
+            //Console.Write("2.Sınavı Giriniz : ");
+            //s2 = Convert.ToInt16(Console.ReadLine());
+            //Console.WriteLine("2.Sınav Notunuz : " + s2);
+            //ort = (s1 + s2) / 2;
+            //Console.WriteLine("Ortalamanız : " + ort);
+
+            //if (ort >= 50)
+            //{
+            //    Console.Write("-Dersi Geçtiniz");
+            //}
+            //else
+            //{
+            //    Console.Write("-Dersten Kaldınız");
+            //}
+
+            //3)Karar Yapıları ile Ve-Veya Operatörlerinin Kullanımı
+            //String KullanıcıAdı, Sifre;
+            //Console.Write("Kullanıcı Adını Giriniz: ");
+            //KullanıcıAdı = Console.ReadLine();
+            //Console.Write("Şifreyi Giriniz: ");
+            //Sifre = Console.ReadLine();
+
+            //if (KullanıcıAdı == "admin" & Sifre == "123")
+            //{
+            //    Console.Write("Giriş Yaptınız");
+            //}
+            //else
+            //{
+            //    Console.Write("Kullanıcı Adı veya Şifre Hatalı");
+            //}
+
+            //4)"Eşit Değilse" Operatörü ile Karar Yapıları
+            //Char karakter;
+            //Console.Write("Karakteri Giriniz: ");
+            //karakter = Convert.ToChar(Console.ReadLine());
+
+            //if (karakter != 'a')
+            //{
+            //    Console.WriteLine("Tebrikler a harfini girmediniz");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Maalesef a harfini girdiniz");
+            //}
+
+            //5)Birden Fazla if Bloğu Kullanımı
+            //int s1, s2, ort;
+            //Console.Write("1.Sınavı Giriniz: ");
+            //s1 =Convert.ToInt16( Console.ReadLine());
+            //Console.Write("2.Sınavı Giriniz: ");
+            //s2 = Convert.ToInt16(Console.ReadLine());
+            //ort = (s1 + s2) / 2;
+            //Console.Write("Ortalamanız: " + ort);
+
+            //if (ort <= 49.99)
+            //{
+            //    Console.Write("-Vasat");
+            //}
+            //if (ort >= 50 & ort < 65)
+            //{
+            //    Console.Write("-Orta");
+            //}
+            //if (ort >= 65 & ort < 75)
+            //{
+            //    Console.Write("-İyi");
+            //}
+            //if (ort >= 75 & ort < 85)
+            //{
+            //    Console.Write("-Çok İyi");
+            //}
+            //if (ort >= 85 & ort <= 100)
+            //{
+            //    Console.Write("-Mükemmel");
+            //}
+
+            //6)Bilgi Yarışması Projes
+            //Toplam 2 soru
+            //4 şık olacak
+            //diğer soruya geçmek için doğru cevap gerekiyor
+            //yanlış cevap verilince yarışma sona erer
+
+            //int soru = 1;
+            //string cevap;
+            //if(soru == 1)
+            //{
+            //    Console.WriteLine("Türkiyenin Başkenti Neresidir?");
+            //    Console.WriteLine();
+            //    Console.WriteLine("A) İstanbul");
+            //    Console.WriteLine("B) Ankara");
+            //    Console.WriteLine("C) Balıkesir");
+            //    Console.WriteLine("D) İzmir");
+            //    Console.Write("Cevabınız: ");
+            //    cevap = Console.ReadLine();
+            //    if (cevap == "B" | cevap == "b")
+            //    {
+            //        soru = soru + 1;
+            //    }
+            //    else
+            //    {
+            //        Console.Write("Cevap Yanlış Toplam Puanınız : 0");
+            //    }
+            //}
+            //if (soru == 2)
+            //{
+            //    Console.WriteLine("Cumhuriyet Kaç Yılında İlan Edilmiştir?");
+            //    Console.WriteLine();
+            //    Console.WriteLine("A) 1920");
+            //    Console.WriteLine("B) 1921");
+            //    Console.WriteLine("C) 1292");
+            //    Console.WriteLine("D) 1923");
+            //    Console.Write("Cevabınız: ");
+            //    cevap = Console.ReadLine();
+            //    if (cevap == "D" | cevap == "d")
+            //    {
+            //        Console.Write("Kazandınız");
+            //    }
+            //    else
+            //    {
+            //        Console.Write("Cevap Yanlış Toplam Puanınız : 1");
+            //    }
+            //}
+
+            //Switch Case ile Plaka-Şehir Uygulaması
+            //byte plaka;
+            //Console.Write("Lütfen Plakayı Giriniz: ");
+            //plaka = Convert.ToByte(Console.ReadLine());
+
+            //switch (plaka)
+            //{
+            //    case 1:Console.Write("Merhaba Adana");
+            //        break;
+            //    case 2:Console.Write("Merhaba Adıyaman");
+            //        break;
+            //    case 3:Console.Write("Merhaba Afyon");
+            //        break;
+            //    default:Console.Write("Henüz Bu Şehir Bilgisi Eklenmedi");
+            //        break;
+            //}
+
+            //Switch Case ile String Değişkenlerin Kullanımı(Mevsim Uygulaması
+            //string mevsim;
+            //Console.Write("Lütfen Mevsimi Giriniz: ");
+            //mevsim = Console.ReadLine();
+
+            //switch (mevsim)
+            //{
+            //    case "yaz":Console.WriteLine("Haziran-Temmuz-Ağustos");
+            //        break;
+            //    case "ilkbahar":Console.WriteLine("Mart-Nisan-Mayıs");
+            //        break;
+            //    case "sonbahar":Console.WriteLine("Eylül-Ekim-Kasım");
+            //        break;
+            //    case "kış":Console.WriteLine("Aralık-Ocak-Şubat");
+            //        break;
+            //    default:Console.WriteLine("Hatalı Mevsim Girişi");
+            //        break;
+            //}
+            //Console.Read();
+
+
+            //Döngüler
 
 
 
