@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -429,7 +430,7 @@ namespace CSharp_101
             //    }
             //}
 
-            //Switch Case ile Plaka-Şehir Uygulaması
+            //7)Switch Case ile Plaka-Şehir Uygulaması
             //byte plaka;
             //Console.Write("Lütfen Plakayı Giriniz: ");
             //plaka = Convert.ToByte(Console.ReadLine());
@@ -446,7 +447,7 @@ namespace CSharp_101
             //        break;
             //}
 
-            //Switch Case ile String Değişkenlerin Kullanımı(Mevsim Uygulaması
+            //8)Switch Case ile String Değişkenlerin Kullanımı(Mevsim Uygulaması)
             //string mevsim;
             //Console.Write("Lütfen Mevsimi Giriniz: ");
             //mevsim = Console.ReadLine();
@@ -487,9 +488,143 @@ namespace CSharp_101
 
             //*****Döngüler*****
 
+            //1)Örnek For Döngüsü Kullanımı
+            //int i;
+
+            // for (i=1; i<=10; i++)
+            // {
+            //     Console.WriteLine("Merhaba Dünya");
+            // }
+            // Console.Read();
+
+            //int i;
+
+            //for(i=1; i<11; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int i;
+
+            //for (i=1;i<=20;i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int i;
+
+            //for (i=1;i<=100;i+=1)
+            //{
+            //    Console.WriteLine(i + " Merhaba Dünya");
+            //}
+
+            //2)Döngü İçinde Karar Yapısı Kullanımı
+            //int sayi = 24 % 9;
+            //Console.WriteLine(sayi);
+
+            //int sayi;
+            //Console.WriteLine("Sayıyı Giriniz: ");
+            //sayi=int.Parse(Console.ReadLine());
+
+            //if(sayi % 2 == 0)
+            //{
+            //    Console.WriteLine("Sayı Çiftir");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sayı Tektir");
+            //}
+
+            //for(int i = 1; i <= 20; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //3)Algoritmik Soru Girilen Sayının Pozitif Tam Bölenlerini Bulma
+            //int sayi;
+            //Console.Write("Sayıyı Giriniz: ");
+            //sayi = Convert.ToInt16(Console.ReadLine());
+
+            //for(int i = 1; i <= sayi; i++)
+            //{
+            //    if (sayi % i == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //4)Algoritmik Mülakat Sorusu
+            //Bir Bakteri var her saatin sonunda ikiye bölünüyor(yani 1 2 4 8 16)
+
+            //int bakteri = 1;
+            //for(int i=1; i <= 24; i++)
+            //{
+            //    bakteri = bakteri * 2;
+            //    Console.WriteLine(bakteri);
+            //}
+
+            //5)Ardışık Sayılarla İşlemler
+
+            //int toplam = 0;
+            //for(int i =1; i <= 5; i++)
+            //{
+            //    toplam = toplam + i;
+            //    Console.WriteLine(toplam); (artış mitarını görürüz)
+
+            //}
+            //Console.WriteLine(toplam); (son halini görürüz)
+
+            //5 faktöriyel
+            //int faktoriyel = 1;
+            //for(int i = 5; i >= 1 ; i--)
+            //{
+            //    faktoriyel = faktoriyel * i;;
+            //}
+            //Console.WriteLine(faktoriyel);
+
+            //6)While Döngüsü
+            //int sayac = 1;
+            //while (sayac <= 10)
+            //{
+            //    Console.WriteLine("Merhaba");
+            //    sayac++;
+            //}
+
+            //int sayac = 1;
+            //while (sayac <= 20)
+            //{
+            //    Console.WriteLine(sayac);
+            //    sayac++;
 
 
+            //int sayac = 1;
+            //int toplam = 0;
+            //while (sayac <= 10)
+            //{
+            //    toplam = toplam + sayac;
+            //    sayac++;
 
+            //}
+            //Console.WriteLine(toplam);
+
+            //7)Do While Döngüsü
+            //int sayi = 1;
+            //do
+            //{
+            //    sayi++;
+            //    Console.WriteLine(sayi);
+            //}
+            //while (sayi <= 10);
+            //Console.Read();
+
+            //Döngüler Not;
+            //Döngüler: for while do-while foreach
+            //for(baslangıc(i=1);bitiş(i<=10);miktar(i++)){işlemler}
+            //while(sart){işlemler(sayi++)} 
+            //do{işlemler(sayi++)}while(sart);
 
 
         }
