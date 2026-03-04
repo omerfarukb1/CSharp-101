@@ -110,6 +110,10 @@ namespace CSharp_101
             //Console.Write(toplam);
             //Console.Read();
 
+            //Başlangıç Çalışmaları Notlar
+            //string değişken tanımlama
+            //int tam sayı tanımlama(in16,int32,int64)
+
             //***** Değişkenler *****(String Ve İnt Değişkenleri Hariç)
             //1)Console.Write("Merhaba Dünya");
 
@@ -270,7 +274,7 @@ namespace CSharp_101
             //dönüşüm için anahtar kelime convert
             //decimal>double>float
 
-            //Karar Yapıları
+            //*****Karar Yapıları*****
             //1)İf ve Else Yapısı("Süslü Parentez kullanalır")
             //string sehir;
             //Console.Write("Şehir Adı: ");
@@ -462,8 +466,26 @@ namespace CSharp_101
             //}
             //Console.Read();
 
+            //Karar Yapıları Notlar:
+            //if(şart) ve else
+            //syntax(Yazım Kuralı) yapısı
+            //if ve elsede süslü parantez kullanılır
+            //Operatörler:
+            //= atama
+            //== eşit mi
+            //> büyük mü
+            //< kuçük mü
+            //>= büyük veya eşit mi
+            //<= küçük veya eşit mi
+            //!= eşit değilse
+            //& ve
+            //| veya
+            //% mod
+            //switch case(Dallanma Fazla Olursa(Karar Yapısı Alt Başlığı))
+            //swicth(deger) case 1:işlemler break; default:işlemler(Süslü Parantez Kullanılır)
 
-            //Döngüler
+
+            //*****Döngüler*****
 
 
 
