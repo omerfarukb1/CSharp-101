@@ -18,7 +18,7 @@ IDE: Visual Studio 2022
 
 [x] Değişkenler ve Veri Tipleri
 
-[ ] Karar Yapıları (if-else, switch)
+[x] Karar Yapıları (if-else, switch)
 
 [ ] Döngüler ve Diziler (for, while)
 
