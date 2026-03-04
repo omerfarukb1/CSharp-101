@@ -20,7 +20,7 @@ IDE: Visual Studio 2022
 
 [x] Karar Yapıları (if-else, switch)
 
-[ ] Döngüler ve Diziler (for, while)
+[/] Döngüler ve Diziler (for, while)
 
 👨‍💻 **Hakkımda**
 
