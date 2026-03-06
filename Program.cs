@@ -251,11 +251,11 @@ namespace CSharp_101
             //Console.Write("Sınavı Geçti mi? ");
             //Console.Write(durum);
 
-            //bool uyemi;
-            //Console.Write("Kullanıcı Sisteme Üye mi: ");
-            //uyemi =Convert.ToBoolean(Console.ReadLine());
-            //Console.Write("Sisteme Üye mi: ");
-            //Console.Write(uyemi);
+            bool uyemi;
+            Console.Write("Kullanıcı Sisteme Üye mi: ");
+            uyemi = Convert.ToBoolean(Console.ReadLine());
+            Console.Write("Sisteme Üye mi: ");
+            Console.Write(uyemi);
 
             //Console.Read();
 
@@ -612,6 +612,7 @@ namespace CSharp_101
 
             //7)Do While Döngüsü
             //int sayi = 1;
+            //do
             //{
             //    sayi++;
             //    Console.WriteLine(sayi);
@@ -626,7 +627,137 @@ namespace CSharp_101
             //do{işlemler(sayi++)}while(sart);
 
 
+            //*****Diziler*****
+
+            //1)String Türünde Dizi Örnekleri
+            //string[] sehirler = { "adana", "bursa", "ankara", "istanbul" };
+            //Console.Write("Dizinin 2.index değeri: " + sehirler[2]);
+            //Console.WriteLine(sehirler[0]);
+            //Console.WriteLine(sehirler[1]);
+            //Console.WriteLine(sehirler[2]);
+            //Console.WriteLine(sehirler[3]);
+
+            //2)Int Türünde Dizi Örnekleri
+            //int[] sayilar = {10 ,20, 30, 40, 50 ,60 ,70 };
+            ////Console.WriteLine(sayilar[4]);
+            //for (int i = 0; i <= 6; i++)
+            //{
+            //    Console.WriteLine(sayilar[i]);
+            //}
+
+            //3)Dizilerle Beraber Karar Yapısı Kullanımı
+            //int[] sayilar = { 10 ,20, 30, 40, 50 ,60 ,70,80,90 };
+            //for (int i = 0; i < sayilar.Length; i++)
+            //{
+            //    if (sayilar[i] % 20 == 0 | sayilar[i]%30 == 0) 
+            //    {
+            //        Console.WriteLine(sayilar[i]);
+            //    }
+
+            //}
+
+            //4)Length Komutu
+            //string[] kisiler = { "ali", "veli", "ayşe", "eylül" };
+            //for (int i = 0; i < kisiler.Length; i++)
+            //{
+            //    Console.WriteLine(kisiler[i]);
+            //}
+            //Console.WriteLine(kisiler.Length);
+
+            //5)Dizilerde Toplama İşlemi(+=)
+            //int[] sayilar = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+            //int toplam = 0;
+            //for (int i = 0; i < sayilar.Length; i++)
+            //{
+            //    toplam += sayilar[i];
+            //    Console.WriteLine(toplam);
+            //}
+
+            //6)Sort Metodu
+            //int[] sayilar = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+            //Array.Sort(sayilar);
+            //for (int i = 0; i < sayilar.Length; i++)
+            //{
+            //    Console.WriteLine(sayilar[i]);
+            //}
+
+            //7)Reverse Metodu
+            //string[] sehirler = { "adana", "bursa", "ankara", "istanbul" };
+            //Array.Reverse(sehirler);
+            //for (int i = 0; i < sehirler.Length; i++)
+            //{
+            //    Console.WriteLine(sehirler[i]);
+            //}
+
+            //8)Index Of Metodu
+            //string[] sehirler = { "adana", "bursa", "ankara", "istanbul" };
+            //int sira;
+            //sira = Array.IndexOf(sehirler,"adana");
+            //Console.WriteLine(sira);
+
+            //9)Min-Max Metotları
+            //int[] sayilar = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+            //Console.WriteLine(sayilar.Max());
+
+            //10)Foreach Döngüsü
+            //string[] sehirler = { "adana", "bursa", "ankara", "istanbul" };
+            //foreach (string s in sehirler)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+            //11)Foreach Döngüsü ve Aritmetik İşlemler
+            //int[] sayilar = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+            //int toplam = 0;
+            //foreach (int s in sayilar)
+            //{
+            //    toplam = toplam + s;
+            //    Console.WriteLine(toplam);
+            //}
+
+            //int[] sayilar = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+            //Array.Sort(sayilar);
+            //foreach (int sayi in sayilar)
+            //{
+            //    if (sayi%2 == 0)
+            //    {
+            //        Console.WriteLine(sayi);
+            //    }
+            //}
+
+            //12)Diziye Klavyeden Değer Girişi
+            //string[] sehirler = new string[5];
+            //for (int i = 0; i < sehirler.Length; i++)
+            //{
+            //    Console.Write("sehir ismi: ");
+            //    sehirler[i] = Console.ReadLine();
+            //}
+            //for (int j = 0; j < sehirler.Length; j++)
+            //{
+            //    Console.WriteLine(sehirler[j]);
+            //}
+            //Console.Read();
+
+            //Diziler Notlar
+            //Array=Dizi
+            //Dizideki her elemanın konumu index olarak adlandırılır
+            //Dizide sayma işlemi sıfırdan başlar
+            //Diziler Ram Bellekte Tutulur
+            //Dizinin Mutlak Bir Değişken Türü Bulunur
+            //Dizi Metodları:
+            //Sort = Diziyi Küçükten Büyüğe doğru sıralar
+            //Reverse = Diziyi tersten yazdırır
+            //İndex of = İndex Sırasını Döndürür(değişken tanımlanır ekstra)
+            //Max-Min = Dizinin en büyük/küçük elemanı(lenght gibi kullanılır)
+            //Lenght = Dizinin boyutunu verir(uzunluk)
+            //Foreach Döngüsünde dizi kullanılır
+            //Foreach döngüsünün 4 temeli vardır:
+            //1)Değişkenin Türü
+            //2)Değişkenin Adı
+            //3)İn komutu
+            //4)Dizi Adı
+            //örnek foreach(string s in sehirler)
+            //Döngülerde noktalı virgül Kullanılmaz
         }
     }
 }
-
